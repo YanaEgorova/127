@@ -1,0 +1,28 @@
+.about__wrapper {
+ 
+}
+.about {
+  padding: 10rem 0;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+   .about {
+     display: flex;
+     align-items: center;
+   }
+   .about .text {
+     margin-bottom: 0;
+   }
+   .about .text.bold {
+    margin-bottom: 3rem;
+  }
+   .about .img {
+     margin: 0 5rem;
+   }
+   .block-left {
+     text-align: left;
+   }
+   .block-right {
+    text-align: right;
+  }
+}
